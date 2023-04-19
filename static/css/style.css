@@ -1,0 +1,73 @@
+
+/*style page for index page*/
+.fixed-header  {
+  position: fixed;
+  background-color: #fff;
+  width: 100%;
+  z-index: 9999;
+  text-align: center;
+  top:0%;
+}
+
+body
+{
+    padding-top: 150px;
+}
+/*hovering overnav bar*/
+.navbar-nav a {
+  color :rgb(106, 205, 106);
+  font-size: 1.2rem;
+  font-weight: 600;
+
+}
+.navbar-nav a:hover {
+  color: green;
+}
+
+.card {
+  padding-top: 100px;
+  border: none;
+    
+}
+.card-text {
+  align-items:center;
+  justify-content: justify;
+}
+
+
+
+.card-img-top   {
+
+  height: 50%;
+}      
+
+.squares {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-gap: 130px;
+  align-items: center;
+   
+}
+
+
+.box1,
+.box2,
+.box3,
+.box4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  height: 200px;
+  width: 200px;
+}
+
+.page-footer{
+  background-color: rgb(106, 205, 106); 
+  height: 200px;
+
+}
+
+
+  
