@@ -1,0 +1,47 @@
+/*style page for index page*/
+.fixed-header  {
+  position: fixed;
+  background-color: #fff;
+  width: 100%;
+  z-index: 9999;
+  text-align: center;
+  top:0%;
+}
+
+body
+{
+    padding-top: 150px;
+}
+/*hovering overnav bar*/
+.navbar-nav a {
+  color : rgb(135, 188, 29);
+  font-size: 1.2rem;
+  font-weight: 600;
+
+}
+.navbar-nav a:hover {
+  color:rgb(115, 156, 32);
+}
+
+
+
+
+/*section-style*/
+.form-section{
+     padding-top:100px;
+  }
+
+.btn{
+    background-color:rgb(135, 188, 29);;
+    border-color: rgb(135, 188, 29);;
+}
+
+.btn:hover {
+    background-color: rgb(115, 156, 32)n;
+    border-color: rgb(115, 156, 32)n;
+  }
+  .page-footer{
+    background-color: rgb(135, 188, 29); 
+    height: 400px;
+    width: 2000px
+  }

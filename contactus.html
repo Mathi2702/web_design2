@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Small Shovel</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+            crossorigin="anonymous"></script>
+    <!--Validate.js-->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+    <!--bootstarp icon-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./static/css/styles.css">
+  </head>
+  <body>
+    <!--NavBar-->
+    <div class="fixed-header shadow bg-white rounded">
+      <nav class="navbar navbar-expand-lg ">
+        <a href="#" class="navbar-brand mx-5">
+          <img src="./static/images/logo.jpg" height="50" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto ">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./aboutus">About Us</a>
+            </li>
+
+          </ul>
+          <ul class="navbar-nav mx-5">
+            <li class="nav-item">
+              <a class= "nav-link" href="./contactus.html"> Contact Us</a>
+            </li>
+          </ul>      
+        </div>
+      </nav> 
+    </div>
+    <!--Section-->
+    <section class="container mb-5 form-section">
+        <!--Section heading-->
+      <h2 class="h1-responsive font-weight-bold text-center my-4" style=" color:rgb(135, 188, 29);">Contact us!</h2>
+      <!--Section description-->
+      <h4 class="text-center w-responsive mx-auto mb-5">Reach out to the Small Shovel Team </h4>
+  
+      <div class="row">
+  
+          <!--Grid column-->
+          <div class="col-md-12 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="contact.php" method="POST">
+            <!--<form id="contact-form" name="contact-form" action="https://formsubmmit.co/elamathi.0409@gmail.com" method="POST">-->
+            <!--form id="contact-form" name="contact-form" action="https://script.google.com/macros/s/AKfycbxvAPIznq-uGg44GMIXjftAujaEWbLWQITr39SyCRqBu4vsUtrXs29sAMxb1mgtv88I/exec" method="POST">-->
+  
+                  <!--Grid row-->
+                  <div class="row mb-4">
+  
+                      <!--Grid column-->
+                      <div class="col-md-3">
+                          <div class="md-form mb-0">
+                              <input type="text" id="name" name="name" class="form-control">
+                              <label for="name" class="">Name</label>
+                          </div>
+                      </div>
+                      <!--Grid column-->
+  
+                      <!--Grid column-->
+                      <div class="col-md-5">
+                          <div class="md-form mb-0">
+                              <input type="text" id="email" name="email" class="form-control">
+                              <label for="email" class="">Email</label>
+                          </div>
+                      </div>
+                      <!--Grid column-->
+                      
+                  </div>
+                  <!--Grid row-->
+
+                  <!--Grid Row-->
+                  <div class="row mb-4">
+                      <!--Grid column-->
+                      <div class="col-md-5">
+                        <div class="md-form mb-0">
+                            <input type="tel" id="phone" name="phone" class="form-control">
+                            <label for="email" class="">Phone Number</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+                  </div>
+                  <!--Grid row-->
+                  <div class="row mb-4">
+                      <!--<div class="col-md-8">
+                          <div class="md-form mb-0">
+                              <input type="text" id="subject" name="subject" class="form-control">
+                              <label for="subject" class="">Subject</label>
+                          </div>
+                      </div>
+                  </div>-->
+                  <!--Grid row-->
+  
+                  <!--Grid row-->
+                  <div class="row">
+  
+                      <!--Grid column-->
+                      <div class="col-md-12">
+  
+                          <div class="md-form">
+                              <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                              <label for="message">Message</label>
+                          </div>
+  
+                      </div>
+                  </div>
+                  <!--Grid row-->
+  
+              </form>
+  
+              <div class="text-center text-md-left">
+                <button type="submit" name="submit" class="btn">Send</button>
+              </div>
+              <div class="status"></div>
+          </div>
+          <!--Grid column-->
+  
+          
+      </div>
+    
+    </section>
+    <!--Section-->
+    <footer class="page-footer  mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col 6 mt-5 mx-5">
+            <img src="./static/images/logo1.png" height="300" style="border:none" alt="logo"> 
+          </div>
+          <div class="col 6 mt-5 pt-5">
+            <h4 class="white-text">Contacts Us</h4>
+            <h5 class="grey-text text-lighten-4">1270 W Peachtree St NW #6a, Atlanta, GA 30309 </h5>
+            <h5 class="grey-text text-lighten-4">info@smallshovel.com</h5>
+            <h5 class="grey-text text-lighten-4">(404) 600-5480</h5>
+          </div>
+        </div>
+      </div>
+      </div>
+    </footer>
+    
+    
+  </body>
+</html>
+      
+
+
