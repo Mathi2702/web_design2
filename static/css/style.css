@@ -77,3 +77,9 @@ body
   
 }
 
+@media only screen and (max-width: 767px) {
+  #footer-logo {
+    max-width: 50%; /* Set the maximum width of the logo to 50% for mobile devices */
+  }
+}
+
