@@ -38,11 +38,11 @@ body
 .btn:hover {
     background-color: rgb(115, 156, 32);
     border-color: rgb(115, 156, 32);
-  }
+}
   
-  .page-footer{
+.page-footer{
     background-color: rgb(26, 25, 25); 
     color: #fff;
-    height: 100%;
-    max-width: 100% !important
-  }
+    
+}
+  

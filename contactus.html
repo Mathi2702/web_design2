@@ -59,95 +59,67 @@
       <h4 class="text-center w-responsive mx-auto mb-5">Reach out to the Small Shovel Team </h4>
   
       <div class="row">
+        <!--Grid column-->
+        <div class="col-md-12 mb-md-0 mb-5">
+          <form id="contact-form" name="contact-form" action="contact.php" method="POST">
+          <!--<form id="contact-form" name="contact-form" action="https://formsubmmit.co/elamathi.0409@gmail.com" method="POST">-->
+          <!--form id="contact-form" name="contact-form" action="https://script.google.com/macros/s/AKfycbxvAPIznq-uGg44GMIXjftAujaEWbLWQITr39SyCRqBu4vsUtrXs29sAMxb1mgtv88I/exec" method="POST">-->
   
-          <!--Grid column-->
-          <div class="col-md-12 mb-md-0 mb-5">
-            <form id="contact-form" name="contact-form" action="contact.php" method="POST">
-            <!--<form id="contact-form" name="contact-form" action="https://formsubmmit.co/elamathi.0409@gmail.com" method="POST">-->
-            <!--form id="contact-form" name="contact-form" action="https://script.google.com/macros/s/AKfycbxvAPIznq-uGg44GMIXjftAujaEWbLWQITr39SyCRqBu4vsUtrXs29sAMxb1mgtv88I/exec" method="POST">-->
-  
-                  <!--Grid row-->
-                  <div class="row mb-4">
-  
-                      <!--Grid column-->
-                      <div class="col-md-3">
-                          <div class="md-form mb-0">
-                              <input type="text" id="name" name="name" class="form-control">
-                              <label for="name" class="">Name</label>
-                          </div>
-                      </div>
-                      <!--Grid column-->
-  
-                      <!--Grid column-->
-                      <div class="col-md-5">
-                          <div class="md-form mb-0">
-                              <input type="text" id="email" name="email" class="form-control">
-                              <label for="email" class="">Email</label>
-                          </div>
-                      </div>
-                      <!--Grid column-->
-                      
-                  </div>
-                  <!--Grid row-->
-
-                  <!--Grid Row-->
-                  <div class="row mb-4">
-                      <!--Grid column-->
-                      <div class="col-md-5">
-                        <div class="md-form mb-0">
-                            <input type="tel" id="phone" name="phone" class="form-control">
-                            <label for="email" class="">Phone Number</label>
-                        </div>
-                    </div>
-                    <!--Grid column-->
-                  </div>
-                  <!--Grid row-->
-                  <div class="row mb-4">
-                      <!--<div class="col-md-8">
-                          <div class="md-form mb-0">
-                              <input type="text" id="subject" name="subject" class="form-control">
-                              <label for="subject" class="">Subject</label>
-                          </div>
-                      </div>
-                  </div>-->
-                  <!--Grid row-->
-  
-                  <!--Grid row-->
-                  <div class="row">
-  
-                      <!--Grid column-->
-                      <div class="col-md-12">
-  
-                          <div class="md-form">
-                              <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                              <label for="message">Message</label>
-                          </div>
-  
-                      </div>
-                  </div>
-                  <!--Grid row-->
-  
-              </form>
-  
-              <div class="text-center text-md-left">
-                <button type="submit" name="submit" class="btn">Send</button>
+            <!--Grid row-->
+            <div class="row mb-4">
+              <!--Grid column-->
+              <div class="col-md-3">
+                <div class="md-form mb-0">
+                  <input type="text" id="name" name="name" class="form-control">
+                  <label for="name" class="">Name</label>
+                </div>
+             </div>
+             <!--Grid column-->
+              <div class="col-md-5">
+                <div class="md-form mb-0">
+                  <input type="text" id="email" name="email" class="form-control">
+                  <label for="email" class="">Email</label>
+                </div>
               </div>
-              <div class="status"></div>
+            </div>
+
+            <!--Grid Row-->
+            <div class="row mb-4">
+              <!--Grid column-->
+              <div class="col-md-5">
+                <div class="md-form mb-0">
+                  <input type="tel" id="phone" name="phone" class="form-control">
+                  <label for="email" class="">Phone Number</label>
+                </div>
+              </div>
+            </div>
+            <!--Grid row-->
+            <div class="row">
+              <!--Grid column-->
+              <div class="col-md-12">
+                <div class="md-form">
+                    <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                    <label for="message">Message</label>
+                </div>
+              </div>
+            </div>
+          </form>
+          <div class="text-center text-md-left">
+             <button type="submit" name="submit" class="btn">Send</button>
           </div>
-          <!--Grid column-->
-  
-          
+          <div class="status"></div>
+        </div>     
       </div>
-    
     </section>
     <!--Section-->
-    <footer class="page-footer  mt-5 pt-5 ">
-      <div class="container">
+    <!--footer-->
+    <footer class="page-footer  mt-5">
+      <div class="container-fluid">
         <div class="row">
-          <div class="col 6 mt-5 mx-5">
-            <img src="./static/images/logo2.png" height="120" style="border:none" alt="logo"> 
+          <div class="col-12 col-md-6 mt-5">
+            <img src="./static/images/logo2.jpg" style="max-width:100%; height:auto; border:none;" alt="logo" id ="footer-logo"> 
           </div>
-          <div class="col 6 mt-5 pt-5">
+          <div class="col-12 col-md-6 mt-5 pt-5">
             <h4 class="white-text">Contact Us</h4>
             <h5 class="white-text text-lighten-4">
               <i class="fa fa-address-book" style="font-size:24px"></i>
@@ -165,11 +137,8 @@
           </div>
         </div>
       </div>
-      
-      </footer>
-   
-    
-    
+    </footer>  
+ 
   </body>
 </html>
       
