@@ -68,6 +68,11 @@ body
   text-align: center;
 }
 
+iframe {
+  border: 1px solid #ccc;
+  background-color: #f6f6f6;
+}
+
 
 .page-footer{
   background-color: rgb(26, 25, 25); 
