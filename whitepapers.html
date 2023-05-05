@@ -56,20 +56,19 @@
       </div>
     </div>
     <!--pdf files-->
-
-    <div id="flipbook-container">
-      <div class="flipbook"></div>
-      <div class="flipbook"></div>
-      <div class="flipbook"></div>
-      <div class="flipbook"></div>
-    </div>
     <div class="container">
       <div class="row">
         <div class="col-md-3">
-                
-          <div class="_df_book" src="./static/pdffiles/GIS.pdf"></div>
-            
+          <div class="card" >
+            <div class="card-body"  style="border:solid; text-align: center;">
+                <h4 class="card-text-head">
+                  <a href="./static/pdffiles/GIS.pdf" style="color:rgb(135, 188, 29);">GIS</a>
+                </h4>
+                <embed src="./static/pdffiles/GIS.pdf" type="application/pdf" width="250px" height="300px" />
+            </div>
+          </div>
         </div>
+        
         <div class="col-md-3">
           <div class="card" >
             <div class="card-body"  style="border:solid; text-align: center;">
@@ -128,32 +127,6 @@
         </div>
       </div>
     </footer>
-    
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/flipbook-js/dist/jquery.flipbook.min.js"></script>
-<script>
-  $(function() {
-    // Initialize first flipbook
-    $('.flipbook:nth-child(1)').flipbook({
-      pdf: './static/pdffiles/GIS.pdf'
-    });
-
-    // Initialize second flipbook
-    $('.flipbook:nth-child(2)').flipbook({
-      pdf: './static/pdffiles/GIS.pdf'
-    });
-
-    // Initialize third flipbook
-    $('.flipbook:nth-child(3)').flipbook({
-      pdf: './static/pdffiles/GIS.pdf'
-    });
-
-    // Initialize fourth flipbook
-    $('.flipbook:nth-child(4)').flipbook({
-      pdf: './static/pdffiles/GIS.pdf'
-    });
-  });
-</script>
   
   </body>
 </html>
